@@ -1,0 +1,11 @@
+create repository on github
+npm install gh-pages
+
+// add this in package.json in script
+"predeploy" : "npm run build",
+"deploy" : "gh-pages -d build",
+
+git add
+git init
+git remote add origin https://github.com/VandanaGitProjects/Textutils.git
+npm run deploy
