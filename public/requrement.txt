@@ -5,7 +5,8 @@ npm install gh-pages
 "predeploy" : "npm run build",
 "deploy" : "gh-pages -d build",
 
-git add
+
 git init
+git add .
 git remote add origin https://github.com/VandanaGitProjects/Textutils.git
 npm run deploy
